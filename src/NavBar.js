@@ -64,7 +64,7 @@ const NavBar = () => {
 
   return (
     <>
-      <AppBar className={classes.appBar}>
+      <AppBar className={classes.appBar} position="sticky">
         <Toolbar className={classes.toolBar}>
           <Typography className={classes.title} component="h1" variant="h3">
             Podcasts
